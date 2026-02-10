@@ -35,11 +35,3 @@ st.markdown('''<style> .stButton>button {
 # Charger les données 
 for i in range(1,6): 
     load_(pd.read_csv(f"data/motos_scooters{i}.csv"), f"Motocycles data {i}", f"{i}")
-    
-
-
-
-
- 
-
-
